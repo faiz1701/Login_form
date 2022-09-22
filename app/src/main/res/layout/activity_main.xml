@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    android:background="@color/teal_700"
+    android:background="#077CB1"
     tools:context=".MainActivity">
 
     <ImageView
@@ -23,8 +23,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:background="@color/cardview_dark_background"
-            android:textColorHint="@color/black"
+            android:textColorHint="@color/teal_700"
+            android:background="@drawable/button_rounded"
             android:hint="Email"
             android:inputType="textEmailAddress"/>
     </com.google.android.material.textfield.TextInputLayout>
@@ -36,8 +36,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:background="@color/cardview_dark_background"
-            android:textColorHint="@color/black"
+            android:background="@drawable/button_rounded"
+            android:textColorHint="@color/teal_700"
             android:hint="Password"
             android:inputType="textPassword"/>
     </com.google.android.material.textfield.TextInputLayout>
@@ -46,7 +46,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:background="@color/black"
+        android:backgroundTint="@color/white"
+        android:textColorHint="@color/black"
         android:text="Login"/>
 
 
